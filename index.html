@@ -8,7 +8,214 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello world!</h1>
+    <!-- header starts -->
+    <header>
+    <!-- navbar starts -->
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid d-flex justify-content-around">
+              <div class="brand d-sm-flex justify-content-between">
+                    <a class="navbar-brand fw-bold text-capitalize" href="#">abacuss convention center</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+              </div>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent" style="flex-grow: 0;">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" href="#">
+                        Contact
+                        </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link">Subscribe</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    <!-- navbar ends -->
+    <!-- carrousel starts  -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./resources/banner.png" class="d-block w-100 h-100" alt="...">
+            <div class="carousel-caption d-md-block d-none position-absolute top-50">
+              <h1>The perfect venue for your next event</h1>
+              <p class="d-md-block d-none">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sunt, illum veniam dolores nemo suscipit?</p>
+              <a href="#" class="btn btn-light text-primary px-5 fw-bold ">Book now!</a>
+            </div>
+          </div>
+          <div class="carousel-item active">
+            <img src="./resources/banner.png" class="d-block w-100 h-100" alt="...">
+            <div class="carousel-caption d-md-block d-none position-absolute top-50">
+              <h1>The perfect venue for your next event</h1>
+              <p class="d-md-block d-none">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sunt, illum veniam dolores nemo suscipit?</p>
+              <a href="#" class="btn btn-light text-primary px-5 fw-bold ">Book now!</a>
+            </div>
+          </div>
+          <div class="carousel-item active">
+            <img src="./resources/banner.png" class="d-block w-100 h-100" alt="...">
+            <div class="carousel-caption d-md-block d-none position-absolute top-50">
+              <h1>The perfect venue for your next event</h1>
+              <p class="d-md-block d-none">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sunt, illum veniam dolores nemo suscipit?</p>
+              <a href="#" class="btn btn-light text-primary px-5 fw-bold ">Book now!</a>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!-- carousel ends -->
+    </header>
+    <!-- header ends -->
+    <!-- main starts -->
+    <main class="container mt-5">
+    <!-- intro albun starts -->
+        <section class="row flex-lg-row flex-column-reverse position-relative">
+            <div class="col-12 col-md-6 mt-3 mt-md-0">
+                <img src="./resources/wedding.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-6 mt-4">
+                <h2 class="fw-bold text-capitalize">every moment is precious</h2>
+                <p class="text-secondary fw-bold fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, architecto doloribus quam, consectetur alias velit magnam excepturi natus quidem tempore itaque! Amet repellendus nemo harum voluptate fugiat expedita laborum saepe?</p>
+                <a href="#" class="btn btn-lg btn-primary">Explore the album <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                  </svg></a>
+                  <div class="toast d-block position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-body border border-4 border-end-0 border-top-0 border-bottom-0 border-primary">
+                        <svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gift-fill" viewBox="0 0 16 16">
+                            <path d="M3 2.5a2.5 2.5 0 0 1 5 0 2.5 2.5 0 0 1 5 0v.006c0 .07 0 .27-.038.494H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h2.038A2.968 2.968 0 0 1 3 2.506V2.5zm1.068.5H7v-.5a1.5 1.5 0 1 0-3 0c0 .085.002.274.045.43a.522.522 0 0 0 .023.07zM9 3h2.932a.56.56 0 0 0 .023-.07c.043-.156.045-.345.045-.43a1.5 1.5 0 0 0-3 0V3zm6 4v7.5a1.5 1.5 0 0 1-1.5 1.5H9V7h6zM2.5 16A1.5 1.5 0 0 1 1 14.5V7h6v9H2.5z"/>
+                          </svg>
+                      20% off on the ext booking
+                      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- intro album ends -->
+    <!-- packages starts -->
+        <section class="mt-5">
+            <h1 class="text-center mb-5">Our packages</h1>
+            <div class="row mt-3">
+                <div class="col-12 col-lg-3 p-3 mt-2 mt-lg-0">
+                    <h2 class="fw-bolder">300$</h2>
+                    <h3 class="fw-bold">Busines fair</h3>
+                    <p class="lead text-secondary">For most business event like book fair craft fair</p>
+                    <ul class="list list-group list-unstyled text-secondary">
+                        <li><svg class="me-2 text-primary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>Limited space access</li>
+                        <li><svg class="me-2 text-primary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>Security facilites</li>
+                        <li><svg class="me-2 text-primary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>>Event support</li>
+                        <li><svg class="me-2 text-primary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>Decoration design</li>
+                        <li><svg class="me-2 text-primary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>Per day bill</li>
+                    </ul>
+                    <a href="#" class="d-inline-block text-primary ms-5 fw-bold text-decoration-none text-center mt-3">Choose plan</a>
+                </div>
+                <div class="col-12 col-lg-3 bg-primary text-white rounded rounded-2 p-5 shadow-lg shadow-primary position-relative mt-2 mt-lg-0">
+                    <button type="button" class="btn btn-sm btn-danger rounded rounded-pill position-absolute" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" style="top:-0.75rem; right: 2rem">
+                        hot
+                      </button>
+                    <h2 class="fw-bolder">800$</h2>
+                    <h3 class="fw-bold">Wedding plus</h3>
+                    <p class="lead">For most business event like book fair craft fair</p>
+                    <ul class="list list-group list-unstyled">
+                        <li><svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>Limited space access</li>
+                        <li><svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>Security facilites</li>
+                        <li><svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>>Event support</li>
+                        <li><svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>Decoration design</li>
+                        <li><svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>Per day bill</li>
+                    </ul>
+                    <a href="#" class="btn btn-lg bg-white text-primary fw-bold text-decoration-none text-center mt-3">Choose plan</a>
+                </div>
+                <div class="col-12 col-lg-3 p-3 mt-2 mt-lg-0">
+                    <h2 class="fw-bolder">300$</h2>
+                    <h3 class="fw-bold">Busines fair</h3>
+                    <p class="lead text-secondary">For most business event like book fair craft fair</p>
+                    <ul class="list list-group list-unstyled text-secondary">
+                        <li><svg class="me-2 text-primary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>Limited space access</li>
+                        <li><svg class="me-2 text-primary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>Security facilites</li>
+                        <li><svg class="me-2 text-primary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>>Event support</li>
+                        <li><svg class="me-2 text-primary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>Decoration design</li>
+                        <li><svg class="me-2 text-primary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>Per day bill</li>
+                    </ul>
+                    <a href="#" class="d-inline-block text-primary ms-5 fw-bold text-decoration-none text-center mt-3">Choose plan</a>
+                </div>
+                <div class="col-12 col-lg-3 p-3 mt-2 mt-lg-0">
+                    <h2 class="fw-bolder">300$</h2>
+                    <h3 class="fw-bold">Busines fair</h3>
+                    <p class="lead text-secondary">For most business event like book fair craft fair</p>
+                    <ul class="list list-group list-unstyled text-secondary">
+                        <li><svg class="me-2 text-primary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>Limited space access</li>
+                        <li><svg class="me-2 text-primary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>Security facilites</li>
+                        <li><svg class="me-2 text-primary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>>Event support</li>
+                        <li><svg class="me-2 text-primary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>Decoration design</li>
+                        <li><svg class="me-2 text-primary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                          </svg>Per day bill</li>
+                    </ul>
+                    <a href="#" class="d-inline-block text-primary ms-5 fw-bold text-decoration-none text-center mt-3">Choose plan</a>
+                </div>
+            </div>
+        </section>
+    <!-- packages ends -->
+    </main>
+    <!-- main ends -->
+
+    
     <!-- Js links for Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
